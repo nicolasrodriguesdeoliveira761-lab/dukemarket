@@ -19,7 +19,7 @@ public class ProdutosDAO {
             + "VALUES (?, ?, ?, ?, ?)";
 
     private static final String SQL_SELECT_ALL = "SELECT * FROM produto";
-    private static final String SQL_SELECT_ID = "SELECT * FRO0,M produto "
+    private static final String SQL_SELECT_ID = "SELECT * FROM produto "
             + "WHERE id = ?";
 
     private static final String SQL_UPDATE = "UPDATE produto SET codBarras = ?,"

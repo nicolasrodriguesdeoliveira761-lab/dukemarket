@@ -50,7 +50,12 @@ public class Dukemarket {
 //        pDAO.delete(3);
 
 
-
+            pAux = pDAO.getResultById(1);
+            pAux.setQtd(60);
+            pDAO.update(pAux);
+            
+            
+            
         
         
         
